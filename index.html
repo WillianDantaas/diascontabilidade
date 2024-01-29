@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Dias Contabilidade</title>
+  <link rel="stylesheet" href="./src/css/tailwind.css">
+
+  <!-- Configurando Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <!-- Configurações Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            diaslogo: '#6D1E20',
+            diasgrandient: '#B8292F',
+          },
+          backgroundImage: {
+            section: "url('public/img/2024-01-11.webp')"
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+  <!-- Menu -->
+  <header class="shadow-lg">
+    <div class="container flex justify-between my-auto mx-auto px-2 align-center items-center">
+
+      <div class="w-28 h-28">
+        <img src="public/img/logotipo dias.png" alt="Dias Contabilidade">
+      </div>
+
+
+      <nav class="hidden lg:flex align-center items-center w-[635px]">
+        <ul class="flex justify-around w-[635px] text-slate-600">
+          <li class="">
+            <a href="#">Quem somos</a>
+          </li>
+          <li>
+            <a href="/">Inicio</a>
+          </li>
+          <li>
+            <a href="/">Serviços</a>
+          </li>
+          <li>
+            <a href="/">Contato</a>
+          </li>
+        </ul>
+
+        <a href="#">
+          <button type="button"
+            class="rounded-lg border w-40 h-14 bg-gradient-to-r from-diaslogo to-diasgrandient text-white opacity-95 hover:opacity-100">
+            Fale Conosco
+          </button>
+        </a>
+
+      </nav>
+      <i class="lg:hidden  ph-fill ph-list cursor-pointer text-2xl hambmobile"></i>
+    </div>
+
+
+    <div class="lg:hidden">
+
+      <nav class="hidden flex flex-col justify-center absolute w-full z-50 bg-white duration-500" id="navmobile">
+
+        <ul class="w-full">
+
+          <li class="w-full border-b border-gray-100">
+            <a href="#"
+              class="flex px-8 p-4 items-stretch font-medium hover:bg-gray-200 duration-200 active:bg-gray-300">Quem
+              somos</a>
+          </li>
+
+          <li class="w-full border-b border-gray-100">
+            <a href="/"
+              class="flex p-4  px-8 items-stretch font-medium hover:bg-gray-200 duration-200 active:bg-gray-300">Inicio</a>
+          </li>
+
+          <li class="w-full border-b border-gray-100">
+            <a href="/"
+              class="flex px-8 p-4 items-stretch font-medium hover:bg-gray-200 duration-200 active:bg-gray-300">Serviços</a>
+          </li>
+
+          <li class="w-full border-b border-gray-100">
+            <a href="/"
+              class="flex px-8 p-4 items-stretch font-medium hover:bg-gray-200 duration-200 active:bg-gray-300">Contato</a>
+          </li>
+
+          <a href="#" class="w-full">
+            <button type="button"
+              class="w-full h-14 bg-gradient-to-r from-diaslogo to-diasgrandient text-white opacity-95 hover:opacity-100 duration-300">
+              Fale Conosco
+            </button>
+          </a>
+
+        </ul>
+      </nav>
+    </div>
+
+
+  </header>
+
+  <main>
+    <section class="lg:h-[640px] h-[400px] mx-auto">
+      <img src="/public/img/background.png" alt="" class="object-cover h-full w-full opacity-50">
+
+      <div class="container mx-auto relative flex flex-col max-w-[765px]">
+
+        <div class="lg:-mt-80 -mt-52"><span class="text-black lg:text-4xl text-2xl font-bold">Simplificamos a
+          </span><span class="text-red-900 lg:text-4xl text-2xl font-bold">contabilidade</span><span
+            class="text-black lg:text-4xl text-2xl font-bold">,</span>
+        </div>
+
+        <div class="">
+          <span class="text-black lg:text-4xl text-2xl font-bold text-2xl">Oferecendo um toque </span>
+          <span class="text-red-900 lg:text-4xl text-2xl text-2xl font-bold"> humano</span>
+          <span class="text-black lg:text-4xl text-2xl font-bold"> e</span>
+          <span class="text-red-900 lg:text-4xl text-2xl font-bold">especializado</span>
+          <span class="text-black lg:text-4xl text-2xl font-bold">.</span>
+        </div>
+
+
+        <div class="">
+          <button type="button"
+            class="rounded-lg lg:w-56 lg:h-14 w-40 h-10 bg-gradient-to-r from-diaslogo to-diasgrandient text-white opacity-95 hover:opacity-100 lg:text-lg lg:mr-11 text-xs mx-auto">
+            Já tenho uma empresa
+          </button>
+          <button type="button"
+            class="rounded-lg border lg:w-40 lg:h-14 w-24 h-10 hover:bg-gradient-to-r from-diaslogo hover:to-diasgrandient text-red-900 font-medium hover:text-white opacity-95 opacity-100 border border-red-900 lg:text-lg text-xs">
+            Abrir empresa
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="bg-zinc-100">
+      <!-- About -->
+      <div class="container mx-auto pt-9 px-2">
+        <!-- Conteudo about -->
+
+        <div>
+          <div class="text-lg">
+            <span>SOBRE NÓS</span>
+          </div>
+          <div class="text-xl lg:text-4xl font-bold">
+            <h1>CONHEÇA NOSSO<br>ESCRITÓRIO</h1>
+          </div>
+
+          <div class="lg:max-w-[500px] lg:mt-5 pb-24">
+            <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000
+              anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard
+              McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras
+              palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações
+              da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32
+              e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC.
+              Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem
+              Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.
+              <br>
+              O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os
+              interessados. Seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" de Cicero também foram
+              reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita
+              por H. Rackham em 1914.
+
+            </p>
+          </div>
+
+          <div>
+            <div>
+              <!-- images -->
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+    </section>
+
+    <section class="">
+      <!-- Quadro de serviços -->
+      <div class="hidden lg:block container -mt-8 mx-auto">
+        <img src="public/img/quebra services.png" alt="Serviços mais vendidos" class="w-auto mx-auto">
+      </div>
+    </section>
+
+
+    <section class="bg-white py-8">
+      <div class="container mx-auto px-2">
+        <div class="text-lg">
+          <span>SERVIÇOS</span>
+        </div>
+        <div class="text-xl lg:text-4xl font-bold">
+          <h1>CONHEÇA NOSSOS<br>SERVIÇOS</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-zinc-100 py-8">
+      <!-- Conheça nosso time -->
+      <div class="container mx-auto">
+        <div class="text-xl lg:text-4xl font-bold text-center">
+          <h1>CONHEÇA NOSSO TIME</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-8">
+      <!-- Conheça nossos clientes -->
+      <div class="container mx-auto px-2">
+        <div class="text-lg">
+          <span>CLIENTES</span>
+        </div>
+        <div class="text-xl lg:text-4xl font-bold">
+          <h1>CONHEÇA NOSSOS<br>CLIENTES</h1>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-gradient-to-r from-diaslogo to-diasgrandient py-4 text-white">
+    <div class="container mx-auto flex flex-wrap justify-around align-center">
+      <div class="w-80 p-4">
+        <!-- Empresa -->
+        <img src="public/img/logotipo-dias-white.png" alt="Logotipo Dias Contabilidade">
+        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt culpa possimus nulla veniam,
+          repudiandae fuga quos repellat soluta atque laborum autem ipsum corporis est, odio impedit quo saepe sapiente
+          modi.</p>
+      </div>
+
+      <div class="w-80 p-4">
+        <!-- Contato -->
+        <span class="font-bold">CONTATO</span>
+      </div>
+      <div class="w-80 p-4">
+        <!-- navegação -->
+        <span class="font-bold">NAVEGAÇÃO</span>
+      </div>
+    </div>
+    <div class="container mx-auto text-center pt-8 text-sm">
+      <p>Todos os direitos reservados ©️ Dias Contabilidade - CNPJ: 00.000.000/0000-00</p>
+    </div>
+  </footer>
+
+  <script src="src/js/index.js"></script>
+</body>
+
+</html>
