@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Escritório Dias Contabilidade oferece serviços abrangentes e consultorias especializadas na área contábil. Contamos com uma equipe dedicada para atender suas necessidades, desde contabilidade tradicional até consultorias estratégicas. Confie na Dias Contabilidade para a excelência em serviços contábeis.">
+  <meta name="keywords" content="contabilidade, escritírio de contabilidade, são joaquim da barra, escritório dias, eduardo dias, contábil, escritório contábil, serviços contábeis empresariais, auditoria financeira, gestão contábil, contabilidade online, consultoria contábil, estratégia de investimentos, serviços financeiros personalizados, consultoria financeira, consultoria empresarial, orçamento empresarial, contabilidade de custos">
+  <meta name="robots" content="index, nofollow">
 
 
   <title>Dias Contabilidade</title>
@@ -35,7 +38,7 @@
 
 <body>
   <!-- Menu -->
-  <header class="shadow-lg">
+  <header class="shadow-lg" id="inicio">
     <div class="container flex justify-between my-auto mx-auto px-2 align-center items-center">
 
       <div class="w-28 h-28">
@@ -52,10 +55,10 @@
             <a href="/">Inicio</a>
           </li>
           <li>
-            <a href="/">Serviços</a>
+            <a href="#servicos">Serviços</a>
           </li>
           <li>
-            <a href="/">Contato</a>
+            <a href="#contato">Contato</a>
           </li>
         </ul>
 
@@ -198,13 +201,13 @@
 
       </div>
 
-      <div class="lg:hidden container -mt-8 mx-auto bg-red-900 w-72">
+      <div class="lg:hidden container -mt-12 mx-auto bg-red-900 w-72">
         <div class="container flex items-center text-white p-1">
           <div>
             <img src="./public/img/lupa-circle.png" alt="Lupa">
           </div>
           <!-- Gestão Fiscal -->
-          <div class="w-48 pl-1">
+          <div class="w-48 pl-2">
             <p class="font-bold">Gestão Fiscal</p>
             <p class="text-sm">Análise tributária estratégica e monitoramento contínuo da carga fiscal.</p>
           </div>
@@ -217,7 +220,7 @@
             <img src="./public/img/list-circle.png" alt="Lupa">
           </div>
           <!-- Gestão Fiscal -->
-          <div class="w-48 pl-1">
+          <div class="w-48 pl-2">
             <p class="font-bold">Gestão Contábil</p>
             <p class="text-sm">Decisões orientadas por dados contábeis.</p>
           </div>
@@ -230,7 +233,7 @@
             <img src="./public/img/user-circle.png" alt="Lupa">
           </div>
           <!-- Gestão Fiscal -->
-          <div class="w-48 pl-1">
+          <div class="w-48 pl-2">
             <p class="font-bold">Abertura de CNPJ</p>
             <p class="text-sm">Executamos uma abordagem abrangente de consultoria e procedimentos.</p>
           </div>
@@ -242,7 +245,7 @@
     </section>
 
 
-    <section class="bg-white py-8">
+    <section class="bg-white py-8" id="servicos">
       <div class="container mx-auto px-2">
         <div class="text-lg">
           <span>SERVIÇOS</span>
@@ -253,7 +256,7 @@
       </div>
     </section>
 
-    <section class="bg-zinc-100 py-8">
+    <section class="bg-zinc-100 py-8" id="time">
       <!-- Conheça nosso time -->
       <div class="container mx-auto">
         <div class="text-xl lg:text-4xl font-bold text-center">
@@ -262,7 +265,7 @@
       </div>
     </section>
 
-    <section class="py-8">
+    <section class="py-8" id="clientes">
       <!-- Conheça nossos clientes -->
       <div class="container mx-auto px-2">
         <div class="text-lg">
@@ -286,7 +289,7 @@
           modi.</p>
       </div>
 
-      <div class="w-80 p-4 text-center">
+      <div class="max-w-80 p-4 text-center" id="contato">
         <!-- Contato -->
         <span class="font-bold">CONTATO</span>
 
@@ -304,13 +307,31 @@
           </ul>
         </div>
       </div>
-      <div class="w-80 p-4 text-center">
+
+      <div class="w-64 p-4 text-center">
         <!-- navegação -->
         <span class="font-bold">NAVEGAÇÃO</span>
+
+        <nav class="text-start">
+          <ul class="flex flex-col mt-4 text-sm lg:text-base">
+            <li class="py-1">
+              <a href="#">Quem somos</a>
+            </li>
+            <li class="py-1">
+              <a href="#inicio">Inicio</a>
+            </li>
+            <li class="py-1">
+              <a href="#servicos">Serviços</a>
+            </li>
+            <li class="py-1">
+              <a href="#contato">Contato</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
-    <div class="container mx-auto w-80 text-center pt-8 text-sm">
-      <p class="flex flex-wrap">Todos os direitos reservados ©️ Dias Contabilidade CNPJ: 15.035.320/0001-54</p>
+    <div class="container mx-auto max-w-80 text-center pt-8 text-sm">
+      <p class="flex flex-wrap ">Todos os direitos reservados ©️ Dias Contabilidade CNPJ: 15.035.320/0001-54</p>
     </div>
   </footer>
 
