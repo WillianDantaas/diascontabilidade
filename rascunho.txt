@@ -1,3 +1,30 @@
+
+Gestão Contábil, Gestão Fiscal, Gestão de Recursos Humanos, Gestão Financeira, Abertura de Empresas, Baixa, Alterações, Regularização de Pendências Previdenciárias, Federais, municipais, 
+Declarações de imposto de renda pessoa física e jurídica
+Certificação digital
+Consultora financeira pessoal e empresarial
+
+
+
+
+
+
+IMPOSTO DE RENDA
+O imposto de renda é um tributo obrigatório pago por pessoas físicas e jurídicas sobre seus rendimentos. O valor do imposto varia de acordo com a renda do contribuinte e a tabela de alíquotas vigente.
+
+CONSULTORIA FINANCEIRA
+Se você está buscando ajuda para organizar suas finanças, alcançar seus objetivos financeiros ou melhorar a gestão financeira da sua empresa, a consultoria financeira pode ser uma ótima opção.
+
+REGULARIZAÇÃO DE PENDENCIAS
+A regularização de pendências financeiras é um passo crucial para conquistar a saúde financeira e evitar problemas sérios como inadimplência, negativação e até mesmo processos jurídicos.
+
+CERTIFICADO DIGITAL
+Um certificado digital é um documento eletrônico que garante a autenticidade de sua identidade online, permitindo que você realize transações com segurança e confiabilidade. Ele funciona como uma carteira de identidade virtual, criptografando suas informações e assegurando que você é quem diz ser.
+
+
+
+
+
 <!-- Container team -->
         <div class="mt-12 ml-2 mr-2 flex grid lg:grid-cols-3 gap-y-12">
 
