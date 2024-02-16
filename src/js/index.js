@@ -5,5 +5,3 @@ button[0].addEventListener('click', () => {
     navmobile.classList.toggle('hidden')
 })
 
-
-

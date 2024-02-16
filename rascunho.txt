@@ -1,0 +1,114 @@
+<!-- Container team -->
+        <div class="mt-12 ml-2 mr-2 flex grid lg:grid-cols-3 gap-y-12">
+
+          <!-- Collaborators -->
+
+          <div class="flex h-48 mt-4">
+
+            <!-- Collaborator Image -->
+            <img src="./public/img/eduardo-dias.jpg" alt="Eduardo Dias - CEO Fundador"
+              class="rounded-xl max-w-full mr-4">
+            <!-- Descriptions -->
+            <div class="flex flex-col text-sm lg:text-base">
+              <p class="text-lg font-bold text-zinc-900 lg:text-xl">Eduardo Dias</p>
+              <span class="text-zinc-800">Contador, CEO Fundador</span>
+              <p class="mt-2 text-zinc-900 lg:text-base">Ao longo de 14 anos na empresa é o responsável pela coordenação
+                geral,
+                controle, gerenciamento de
+                qualidade dos serviços prestados, feedback, suporte técnico geral, consultoria financeira, Gestão de
+                fiscos do negócio, Trader e Investidor no mercado de capitais.</p>
+            </div>
+          </div>
+
+          <div class="flex h-48 mt-4">
+
+            <!-- Collaborator Image -->
+            <img src="./public/img/aline-dias.jpg" alt="Aline Dias - CEO Fundador" class="rounded-xl max-w-full mr-4">
+            <!-- Descriptions -->
+            <div class="flex flex-col text-sm lg:text-base">
+              <p class="text-lg font-bold text-zinc-900 lg:text-xl">Aline H. Tuzzi Dias</p>
+              <span class="text-zinc-800">Arquiteta e Urbanista - Ceo-Fundadora</span>
+              <p class="mt-2 text-zinc-900">Responsável pelo setor de certificação digital de organizações empresariais
+                e pessoas fisicas, certificando a identidade do emissor e garantindo a integridade e confidencialidade,
+                atendimento aos clientes e seus representantes legais, controladoria e conferência de documentos
+                pertinentes aos processos de certificação.</p>
+            </div>
+          </div>
+
+          <div class="flex h-48 mt-4">
+
+            <!-- Collaborator Image -->
+            <img src="./public/img/breno.jpg" alt="Breno - Departamento de Arquivos e Expediente"
+              class="rounded-xl max-w-full mr-4">
+            <!-- Descriptions -->
+            <div class="flex flex-col text-sm lg:text-base">
+              <p class="text-lg font-bold text-zinc-900 lg:text-xl">Breno</p>
+              <span class="text-zinc-800">Departamento de Arquivos e Expediente</span>
+              <p class="mt-6 text-zinc-900">Responsável pela guarda e controle dos principais documentos permanentes das
+                organizações, controla a entrega e recebimento da documentação mensal dos clientes devidamente
+                protocolado em tempo hábil, organização de correspondências e auxílio nas atividades logísticas gerais
+                da organização contábil.</p>
+            </div>
+          </div>
+
+          <div class="flex h-48 mt-4 mr-auto ml-auto w-9/12">
+
+            <!-- Collaborator Image -->
+            <img src="./public/img/kamilla.jpg" alt="Kamilla - Departamento Pessoal" class="rounded-xl max-w-full mr-4">
+            <!-- Descriptions -->
+            <div class="flex flex-col text-sm lg:text-base">
+              <p class="text-lg font-bold text-zinc-900 lg:text-xl">Kamilla</p>
+              <span class="text-zinc-800">Departamento Pessoal</span>
+              <p class="mt-2 text-zinc-900">Responsável por realizar atividades administrativas e burocráticas que fazem
+                parte da relação entre empregador e empregado tais como: gerenciar a folha de pagamento, admissões e
+                demissões, eSocial, férias, benefícios, atestados e afastamentos, registro de ponto e passivos
+                trabalhistas.</p>
+            </div>
+          </div>
+
+          <div class="flex h-48 mt-4 mr-auto ml-auto w-9/12">
+
+            <!-- Collaborator Image -->
+            <img src="./public/img/marilia.jpg" alt="Marília - Departamento Financeiro"
+              class="rounded-xl max-w-full mr-4">
+            <!-- Descriptions -->
+            <div class="flex flex-col text-sm lg:text-base">
+              <p class="text-lg font-bold text-zinc-900 lg:text-xl">Marília</p>
+              <span class="text-zinc-800">Departamento Financeiro</span>
+              <p class="mt-2 text-zinc-900">Responsável pelo planejamento diário, contas a receber, protocolos de
+                entrada e saída de documentação, controladoria e apontamentos de despesas e receitas para empresas
+                multinacionais.</p>
+            </div>
+          </div>
+
+          <div class="flex h-48 mt-4 mr-auto ml-auto w-9/12">
+
+            <!-- Collaborator Image -->
+            <img src="./public/img/aline.jpg" alt="Aline - Departamento Fiscal" class="rounded-xl max-w-full mr-4">
+            <!-- Descriptions -->
+            <div class="flex flex-col text-sm lg:text-base">
+              <p class="text-lg font-bold text-zinc-900 lg:text-xl">Aline</p>
+              <span class="text-zinc-800">Departamento Fiscal</span>
+              <p class="mt-2 text-zinc-900">Responsável por fazer a escrituração das movimentações fiscais, calcular e
+                analisar impostos estaduais, garantindo que todas as obrigações tributárias e acessórias sejam
+                cumpridas.</p>
+            </div>
+          </div>
+
+          <div class="flex h-48 mt-4 mr-auto ml-auto w-9/12">
+
+            <!-- Collaborator Image -->
+            <img src="./public/img/sebastiana.jpg" alt="Sebastiana - Departamento Contábil"
+              class="rounded-xl max-w-full mr-4">
+            <!-- Descriptions -->
+            <div class="flex flex-col text-sm lg:text-base">
+              <p class="text-lg font-bold text-zinc-900 lg:text-xl">Sebastiana</p>
+              <span class="text-zinc-800">Departamento Contábil</span>
+              <p class="mt-2 text-zinc-900">Responsável em fazer lançamentos contábeis, conciliações bancárias, montar e
+                analisar demonstrações contábeis, balanços patrimoniais, evidenciando os lucros e prejuízos das
+                organizações empresariais.</p>
+            </div>
+          </div>
+
+
+        </div>
