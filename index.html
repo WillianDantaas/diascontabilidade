@@ -32,8 +32,9 @@
             diasgrandient: '#B8292F',
           },
           backgroundImage: {
-            section: "url('public/img/2024-01-11.webp')"
-          }
+            section: "url('public/img/2024-01-11.webp')",
+            line: "url('./public/img/line.png')"
+          },
         }
       }
     }
@@ -251,7 +252,7 @@
     </section>
 
 
-    <section class="bg-red-900 py-8 mt-4" id="servicos">
+    <section class="bg-red-900 py-8 mt-4 bg-line" id="servicos">
       <div class="container mx-auto px-2">
         <div class="text-sm text-white">
           <span>SERVIÇOS</span>
@@ -260,27 +261,254 @@
           <h1>CONHEÇA NOSSOS<br>SERVIÇOS</h1>
         </div>
 
-        <!-- Container -->
-        <div class=" flex justify-between mt-12">
-          <!-- Serviços -->
+        <div class="mx-auto mt-12">
 
-          <div>
-            <div class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
-              <!-- img -->
-              <i class="ph-bold ph-chart-donut text-5xl text-red-900"></i>
-              <h4>Consultoria <span class="block">Financeira</span></h4>
-              <p class="text-base font-normal">Nossa equipe é formada por profissionais altamente capacitados e com vasta experiência no mercado financeiro.</p>
+          <div id="default-carousel" class="relative" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="overflow-hidden relative hidden lg:block lg:h-96 rounded-lg sm:h-64 xl:h-96 2xl:h-96">
+              <!-- Item 1 -->
+              <div class="hidden duration-700 ease-in-out flex justify-around gap-4" data-carousel-item>
+                <div class="flex justify-between">
+                  <!-- Serviços -->
+
+                  <div>
+                    <div
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      <!-- img -->
+                      <i class="ph-bold ph-chart-donut text-5xl text-red-900"></i>
+                      <h4>Consultoria <span class="block">Financeira</span></h4>
+                      <p class="text-base font-normal">Nossa equipe é formada por profissionais altamente capacitados e
+                        com
+                        vasta experiência no mercado financeiro.</p>
+                    </div>
+
+
+                    <button
+                      class="mt-10 flex items-center justify-center mx-auto rounded-3xl border border-2 bg-white w-40 h-11 font-bold font-lg text-red-900 hover:text-white hover:bg-transparent duration-300"><a
+                        href="#" class="rounded-3xl">Saiba Mais</a></button>
+                  </div>
+                </div>
+
+                <div class="flex justify-between">
+                  <!-- Serviços -->
+
+                  <div>
+                    <div
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      <!-- img -->
+                      <i class="ph-bold ph-calculator text-5xl text-red-900"></i>
+                      <h4>Imposto <span class="block">de Renda</span></h4>
+                      <p class="text-base font-normal">Declaramos seu Imposto de Renda para a sua tranquilidade, com total segurança e rapidez.</p>
+                    </div>
+
+
+                    <button
+                      class="mt-10 flex items-center justify-center mx-auto rounded-3xl border border-2 bg-white w-40 h-11 font-bold font-lg text-red-900 hover:text-white hover:bg-transparent duration-300"><a
+                        href="#" class="rounded-3xl">Saiba Mais</a></button>
+                  </div>
+                </div>
+
+                <div class="flex justify-between ">
+                  <div>
+                    <div
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      <!-- img -->
+                      <i class="ph-bold ph-files text-5xl text-red-900"></i>
+                      <h4>Regularização <span class="block">de Pendências</span></h4>
+                      <p class="text-base font-normal">Identificamos todas as suas pendências e elaboramos um plano personalizado para regularizá-las.</p>
+                    </div>
+
+
+                    <button
+                      class="mt-10 flex items-center justify-center mx-auto rounded-3xl border border-2 bg-white w-40 h-11 font-bold font-lg text-red-900 hover:text-white hover:bg-transparent duration-300"><a
+                        href="#" class="rounded-3xl">Saiba Mais</a></button>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- Item 2 -->
+              <div class="hidden duration-700 ease-in-out flex justify-around gap-4" data-carousel-item>
+                <div class="flex justify-between">
+                  <div>
+                    <div
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      <!-- img -->
+                      <i class="ph-bold ph-medal text-5xl text-red-900"></i>
+                      <h4>Certificado <span class="block">Digital</span></h4>
+                      <p class="text-base font-normal">Comece a usar um Certificado Digital hoje mesmo e aproveite todos os seus benefícios!</p>
+                    </div>
+
+
+                    <button
+                      class="mt-10 flex items-center justify-center mx-auto rounded-3xl border border-2 bg-white w-40 h-11 font-bold font-lg text-red-900 hover:text-white hover:bg-transparent duration-300"><a
+                        href="#" class="rounded-3xl">Saiba Mais</a></button>
+                  </div>
+                </div>
+
+                <div class="flex justify-between">
+                  <div>
+                    <div
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      <!-- img -->
+                      <i class="ph-bold ph-chart-donut text-5xl text-red-900"></i>
+                      <h4>Gestão <span class="block">Fiscal</span></h4>
+                      <p class="text-base font-normal">Planejamento tributário personalizado para reduzir sua carga fiscal.</p>
+                    </div>
+
+
+                    <button
+                      class="mt-10 flex items-center justify-center mx-auto rounded-3xl border border-2 bg-white w-40 h-11 font-bold font-lg text-red-900 hover:text-white hover:bg-transparent duration-300"><a
+                        href="#" class="rounded-3xl">Saiba Mais</a></button>
+                  </div>
+                </div>
+
+                <div class="flex justify-between">
+                  <div>
+                    <div
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      <!-- img -->
+                      <i class="ph-bold ph-chart-donut text-5xl text-red-900"></i>
+                      <h4>Assessoria Empresarial <span class="block">Financeira</span></h4>
+                      <p class="text-base font-normal">Oferecendo assessoria completa e personalizada para empresas de todos os portes e setores.</p>
+                    </div>
+
+
+                    <button
+                      class="mt-10 flex items-center justify-center mx-auto rounded-3xl border border-2 bg-white w-40 h-11 font-bold font-lg text-red-900 hover:text-white hover:bg-transparent duration-300"><a
+                        href="#" class="rounded-3xl">Saiba Mais</a></button>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
+            <!-- Slider controls -->
+            <div class="hidden lg:flex justify-center">
+              <button type="button" class="flex justify-center items-center  cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span>
+                  <i class="ph-bold ph-caret-left text-2xl text-white hover:text-zinc-400"></i>
+                  <span class="hidden">Previous</span>
+                </span>
+              </button>
 
-            <button class="mt-10 flex items-center justify-center mx-auto rounded-3xl border border-2 bg-white w-40 h-11 font-bold font-lg text-red-900 hover:text-white hover:bg-transparent duration-300"><a href="#" class="rounded-3xl">Saiba Mais</a></button>
+              <button type="button"
+                class="flex justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span>
+                  <i class="ph-bold ph-caret-right text-2xl text-white hover:text-zinc-400"></i>
+                  <span class="hidden">Next</span>
+                </span>
+              </button>
             </div>
           </div>
 
 
-        
+
+          <div id="default-carousel" class="relative" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="overflow-hidden relative h-96 lg:hidden rounded-lg">
+
+              <!-- Item 1 -->
+              <div class="hidden duration-700 ease-in-out flex justify-around gap-4" data-carousel-item>
+                <div class="flex justify-between">
+                  <!-- Serviços -->
+
+                  <div>
+                    <div
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      <!-- img -->
+                      <i class="ph-bold ph-chart-donut text-5xl text-red-900"></i>
+                      <h4>Consultoria <span class="block">Financeira</span></h4>
+                      <p class="text-base font-normal">Nossa equipe é formada por profissionais altamente capacitados e
+                        com
+                        vasta experiência no mercado financeiro.</p>
+                    </div>
+
+
+                    <button
+                      class="mt-10 flex items-center justify-center mx-auto rounded-3xl border border-2 bg-white w-40 h-11 font-bold font-lg text-red-900 hover:text-white hover:bg-transparent duration-300"><a
+                        href="#" class="rounded-3xl">Saiba Mais</a></button>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- Item 2 -->
+              <div class="hidden duration-700 ease-in-out flex justify-around gap-4" data-carousel-item>
+                <div class="flex justify-between">
+                  <!-- Serviços -->
+
+                  <div>
+                    <div
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      <!-- img -->
+                      <i class="ph-bold ph-chart-donut text-5xl text-red-900"></i>
+                      <h4>Consultoria <span class="block">Financeira2</span></h4>
+                      <p class="text-base font-normal">Nossa equipe é formada por profissionais altamente capacitados e
+                        com
+                        vasta experiência no mercado financeiro.</p>
+                    </div>
+
+
+                    <button
+                      class="mt-10 flex items-center justify-center mx-auto rounded-3xl border border-2 bg-white w-40 h-11 font-bold font-lg text-red-900 hover:text-white hover:bg-transparent duration-300"><a
+                        href="#" class="rounded-3xl">Saiba Mais</a></button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="hidden duration-700 ease-in-out flex justify-around gap-4" data-carousel-item>
+                <div class="flex justify-between">
+                  <!-- Serviços -->
+
+                  <div>
+                    <div
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      <!-- img -->
+                      <i class="ph-bold ph-chart-donut text-5xl text-red-900"></i>
+                      <h4>Consultoria <span class="block">Financeira3</span></h4>
+                      <p class="text-base font-normal">Nossa equipe é formada por profissionais altamente capacitados e
+                        com
+                        vasta experiência no mercado financeiro.</p>
+                    </div>
+
+
+                    <button
+                      class="mt-10 flex items-center justify-center mx-auto rounded-3xl border border-2 bg-white w-40 h-11 font-bold font-lg text-red-900 hover:text-white hover:bg-transparent duration-300"><a
+                        href="#" class="rounded-3xl">Saiba Mais</a></button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Slider controls -->
+            <div class="flex justify-center lg:hidden">
+              <button type="button" class="flex justify-center items-center  cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span>
+                  <i class="ph-bold ph-caret-left text-2xl text-white hover:text-zinc-400"></i>
+                  <span class="hidden">Previous</span>
+                </span>
+              </button>
+
+              <button type="button"
+                class="flex justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span>
+                  <i class="ph-bold ph-caret-right text-2xl text-white hover:text-zinc-400"></i>
+                  <span class="hidden">Next</span>
+                </span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
+
+
     </section>
 
     <section class="bg-zinc-100 py-8" id="time">
@@ -312,15 +540,15 @@
 
           </ol>
 
-          <div class="carousel-inner">
+          <div class="carousel-inner h-[400px] sm:h-60 lg:h-auto">
 
 
             <div class="carousel-item active">
-              <div class="flex h-48 mr-auto ml-auto w-9/12">
+              <div class="flex flex-col sm:flex-row h-48 mr-auto ml-auto w-9/12 text-center sm:text-start">
 
                 <!-- Collaborator Image -->
                 <img src="./public/img/eduardo-dias.jpg" alt="Eduardo Dias - CEO Fundador"
-                  class="rounded-xl max-w-full mr-4">
+                  class="rounded-xl max-w-40 sm:max-w-full mx-auto sm:mr-4">
                 <!-- Descriptions -->
                 <div class="flex flex-col text-sm lg:text-base">
                   <p class="text-lg font-bold text-zinc-900 lg:text-xl">Eduardo Dias</p>
@@ -337,11 +565,11 @@
 
 
             <div class="carousel-item">
-              <div class="flex h-48 mr-auto ml-auto w-9/12">
+              <div class="flex flex-col sm:flex-row h-48 mr-auto ml-auto w-9/12 text-center sm:text-start">
 
                 <!-- Collaborator Image -->
                 <img src="./public/img/aline-dias.jpg" alt="Aline Dias - CEO Fundador"
-                  class="rounded-xl max-w-full mr-4">
+                  class="rounded-xl max-w-40 sm:max-w-full mx-auto sm:mr-4">
                 <!-- Descriptions -->
                 <div class="flex flex-col text-sm lg:text-base">
                   <p class="text-lg font-bold text-zinc-900 lg:text-xl">Aline H. Tuzzi Dias</p>
@@ -358,11 +586,11 @@
 
 
             <div class="carousel-item">
-              <div class="flex h-48 mr-auto ml-auto w-9/12">
+              <div class="flex flex-col sm:flex-row h-48 mr-auto ml-auto w-9/12 text-center sm:text-start">
 
                 <!-- Collaborator Image -->
                 <img src="./public/img/breno.jpg" alt="Breno - Departamento de Arquivos e Expediente"
-                  class="rounded-xl max-w-full mr-4">
+                  class="rounded-xl max-w-40 sm:max-w-full mx-auto sm:mr-4">
                 <!-- Descriptions -->
                 <div class="flex flex-col text-sm lg:text-base">
                   <p class="text-lg font-bold text-zinc-900 lg:text-xl">Breno</p>
@@ -378,11 +606,11 @@
             </div>
 
             <div class="carousel-item">
-              <div class="flex h-48 mr-auto ml-auto w-9/12">
+              <div class="flex flex-col sm:flex-row h-48 mr-auto ml-auto w-9/12 text-center sm:text-start">
 
                 <!-- Collaborator Image -->
                 <img src="./public/img/kamilla.jpg" alt="Kamilla - Departamento Pessoal"
-                  class="rounded-xl max-w-full mr-4">
+                  class="rounded-xl max-w-40 sm:max-w-full mx-auto sm:mr-4">
                 <!-- Descriptions -->
                 <div class="flex flex-col text-sm lg:text-base">
                   <p class="text-lg font-bold text-zinc-900 lg:text-xl">Kamilla</p>
@@ -397,11 +625,11 @@
             </div>
 
             <div class="carousel-item">
-              <div class="flex h-48 mr-auto ml-auto w-9/12">
+              <div class="flex flex-col sm:flex-row h-48 mr-auto ml-auto w-9/12 text-center sm:text-start">
 
                 <!-- Collaborator Image -->
                 <img src="./public/img/marilia.jpg" alt="Marília - Departamento Financeiro"
-                  class="rounded-xl max-w-full mr-4">
+                  class="rounded-xl max-w-40 sm:max-w-full mx-auto sm:mr-4">
                 <!-- Descriptions -->
                 <div class="flex flex-col text-sm lg:text-base">
                   <p class="text-lg font-bold text-zinc-900 lg:text-xl">Marília</p>
@@ -414,10 +642,10 @@
             </div>
 
             <div class="carousel-item">
-              <div class="flex h-48 mr-auto ml-auto w-9/12">
+              <div class="flex flex-col sm:flex-row h-48 mr-auto ml-auto w-9/12 text-center sm:text-start">
 
                 <!-- Collaborator Image -->
-                <img src="./public/img/aline.jpg" alt="Aline - Departamento Fiscal" class="rounded-xl max-w-full mr-4">
+                <img src="./public/img/aline.jpg" alt="Aline - Departamento Fiscal" class="rounded-xl max-w-40 sm:max-w-full mx-auto sm:mr-4">
                 <!-- Descriptions -->
                 <div class="flex flex-col text-sm lg:text-base">
                   <p class="text-lg font-bold text-zinc-900 lg:text-xl">Aline</p>
@@ -431,11 +659,11 @@
             </div>
 
             <div class="carousel-item">
-              <div class="flex h-48 mr-auto ml-auto w-9/12">
+              <div class="flex flex-col sm:flex-row h-48 mr-auto ml-auto w-9/12 text-center sm:text-start">
 
                 <!-- Collaborator Image -->
                 <img src="./public/img/sebastiana.jpg" alt="Sebastiana - Departamento Contábil"
-                  class="rounded-xl max-w-full mr-4">
+                  class="rounded-xl max-w-40 sm:max-w-full mx-auto sm:mr-4">
                 <!-- Descriptions -->
                 <div class="flex flex-col text-sm lg:text-base">
                   <p class="text-lg font-bold text-zinc-900 lg:text-xl">Sebastiana</p>
@@ -547,6 +775,8 @@
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="./src/js/bootstrap.min.js"></script>
+
+  <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
 
 
   <script src="./src/js/index.js"></script>
