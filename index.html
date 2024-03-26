@@ -472,7 +472,7 @@
           <!-- Mobile -->
           <div id="default-carousel" class="relative" data-carousel="static">
             <!-- Carousel wrapper -->
-            <div class="overflow-hidden relative h-96 lg:hidden rounded-lg">
+            <div class="overflow-hidden relative h-[450px] lg:hidden rounded-lg">
 
               <!-- Item 1 -->
               <div class="hidden duration-700 ease-in-out flex justify-around gap-4" data-carousel-item>
@@ -481,7 +481,7 @@
 
                   <div>
                     <div
-                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-80 p-5">
                       <!-- img -->
                       <i class="ph-bold ph-chart-donut text-5xl text-red-900"></i>
                       <p>Consultoria <span class="block">Financeira</span></p>
@@ -507,7 +507,7 @@
 
                   <div>
                     <div
-                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-80 p-5">
                       <!-- img -->
                       <i class="ph-bold ph-calculator text-5xl text-red-900"></i>
                       <p>Imposto <span class="block">de Renda</span></p>
@@ -531,7 +531,7 @@
 
                   <div>
                     <div
-                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-80 p-5">
                       <!-- img -->
                       <i class="ph-bold ph-files text-5xl text-red-900"></i>
                       <p>Regularização <span class="block">de Pendências</span></p>
@@ -555,7 +555,7 @@
 
                   <div>
                     <div
-                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-80 p-5">
                       <!-- img -->
                       <i class="ph-bold ph-medal text-5xl text-red-900"></i>
                       <p>Certificado <span class="block">Digital</span></p>
@@ -579,7 +579,7 @@
 
                   <div>
                     <div
-                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-80 p-5">
                       <!-- img -->
                       <i class="ph-bold ph-file-text text-5xl text-red-900"></i>
                       <p>Gestão <span class="block">Fiscal</span></p>
@@ -603,7 +603,7 @@
 
                   <div>
                     <div
-                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-64 p-5">
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-80 p-5">
                       <!-- img -->
                       <i class="ph-bold ph-users-three text-5xl text-red-900"></i>
                       <p>Assessoria <span class="block">Empresarial Financeira</span></p>
@@ -617,6 +617,31 @@
                         href="https://wa.me/16999966550/?text=Olá, gostaria de saber mais sobre Assessoria Empresarial Financeira, poderia me ajudar?"
                         target="_blank" class="rounded-3xl">Saiba Mais</a></button>
                   </div>
+                </div>
+              </div>
+
+              <!-- Item 7 -->
+              <div class="hidden duration-700 ease-in-out flex justify-around gap-4" data-carousel-item>
+                <div class="flex justify-between">
+                  <!-- Serviços -->
+                  <div>
+                    <div
+                      class="bg-white flex flex-col justify-around rounded-3xl text-center text-zinc-900 font-bold text-2xl max-w-96 h-80 p-5">
+                      <!-- img -->
+                      <i class="ph-bold ph-chart-bar text-5xl text-red-900"></i>
+                      <p>BPO Financeiro<span class="block">Business Process Outsourcing</span></p>
+                      <p class="text-base font-normal">Responsável pela gestão financeira das empresas, gerando
+                        relatórios por departamentos, centro de custos alinhado com as rotinhas contábeis, auxiliando e
+                        dando uma visão estratégica para as organizações.</p>
+                    </div>
+
+
+                    <button
+                      class="mt-10 flex items-center justify-center mx-auto rounded-3xl border border-2 bg-white w-40 h-11 font-bold font-lg text-red-900 hover:text-white hover:bg-transparent duration-300"><a
+                        href="https://wa.me/16999966550/?text=Olá, gostaria de saber mais sobre Certificado Digital, poderia me ajudar?"
+                        target="_blank" class="rounded-3xl">Saiba Mais</a></button>
+                  </div>
+                  
                 </div>
               </div>
 
@@ -1023,7 +1048,7 @@
       </div>
     </section>
 
-    <section class="py-8" id="clientes">
+    <section class="py-8">
 
       <div class="container mx-auto px-2">
         <div class="text-sm">
@@ -1036,7 +1061,7 @@
         <div class="flex flex-wrap max-w-full items-center justify-center px-12 gap-24 mt-12">
           <!-- Serviços -->
 
-          <div class="flex gap-6 sm:gap-24">
+          <div class="flex gap-6 sm:gap-24 items-center">
             <div>
               <img src="public/img/lt-contmatic.png" alt="Contmatic" class="max-w-28">
             </div>
@@ -1044,15 +1069,21 @@
               <img src="public/img/lt-econet.png" alt="Econet" class="max-w-28">
             </div>
           </div>
-          <div class="flex gap-6 sm:gap-24">
+
+          <div class="flex gap-6 sm:gap-24 items-center">
             <div>
               <img src="public/img/lt-local.png" alt="Local Certificação Digital" class="max-w-28">
             </div>
             <div>
               <img src="public/img/lt-veri.jpg" alt="Veri" class="rounded-full max-w-16">
             </div>
+          </div>
+          <div class="flex gap-6 sm:gap-24 items-center">
             <div>
-              <img src="public/img/lt-sieg.jpg" alt="Veri" class="rounded-full max-w-16">
+              <img src="public/img/lt-sieg.jpg" alt="Sieg" class="rounded-full max-w-16">
+            </div>
+            <div>
+              <img src="public/img/clients/lt-omie.png" alt="Omie" class="rounded-full w-24">
             </div>
           </div>
         </div>
@@ -1080,6 +1111,10 @@
 
                 <div class="flex items-center justify-between gap-6">
                   <div>
+                    <img src="public/img/clients/lt-bbcagroup.png" alt="BBCA Group"
+                      class="max-w-28">
+                  </div>
+                  <div>
                     <img src="public/img/clients/lt-junqueirakeller.png" alt="Junqueira Keller - Academia de Tenis"
                       class="max-w-28">
                   </div>
@@ -1103,12 +1138,6 @@
                   <div>
                     <img src="public/img/clients/lt-chicopiscinas.png" alt="Chico Piscinas" class="max-w-28">
                   </div>
-                  <div>
-                    <img src="public/img/clients/lt-coletaseletiva.png" alt="Coletas Seletivas SJB" class="max-w-28">
-                  </div>
-                  <div>
-                    <img src="public/img/clients/lt-espeto-cia.png" alt="Espeto e Cia" class="max-w-28">
-                  </div>
 
                 </div>
 
@@ -1118,6 +1147,13 @@
               <!-- Page 2 -->
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <div class="flex items-center justify-between gap-6">
+                  <div>
+                    <img src="public/img/clients/lt-coletaseletiva.png" alt="Coletas Seletivas SJB" class="max-w-28">
+                  </div>
+                  <div>
+                    <img src="public/img/clients/lt-espeto-cia.png" alt="Espeto e Cia" class="max-w-28">
+                  </div>
+
                   <div>
                     <img src="public/img/clients/lt-compubarra.png" alt="CompuBarra" class="max-w-28 rounded-full">
                   </div>
@@ -1142,14 +1178,6 @@
                   <div>
                     <img src="public/img/clients/lt-pedalomais.png" alt="Pedalo Mais" class="max-w-28 rounded-full">
                   </div>
-                  <div>
-                    <img src="public/img/clients/lt-tocadosbichos.png" alt="Toca dos Bichos"
-                      class="max-w-28 rounded-full">
-                  </div>
-                  <div>
-                    <img src="public/img/clients/lt-cadorin.png" alt="Cadorin Serralheria"
-                      class="max-w-28 rounded-full">
-                  </div>
 
                 </div>
 
@@ -1158,6 +1186,14 @@
               <!-- Page 3 -->
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <div class="flex items-center justify-between gap-6">
+                  <div>
+                    <img src="public/img/clients/lt-tocadosbichos.png" alt="Toca dos Bichos"
+                      class="max-w-28 rounded-full">
+                  </div>
+                  <div>
+                    <img src="public/img/clients/lt-cadorin.png" alt="Cadorin Serralheria"
+                      class="max-w-28 rounded-full">
+                  </div>
                   <div>
                     <img src="public/img/clients/lt-dalvabrasil.png" alt="Dalva Brasil" class="max-w-36 rounded-full">
                   </div>
@@ -1180,6 +1216,14 @@
                   <div>
                     <img src="public/img/clients/lt-patinhacheirosa.png" alt="Patinha Cheirosa" class="max-w-28">
                   </div>
+
+                </div>
+
+              </div>
+
+              <!-- Page 4 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <div class="flex items-center gap-6">
                   <div>
                     <img src="public/img/clients/lt-estacaoprofit.png" alt="Estação ProFit" class="max-w-36 bg-red-900">
                   </div>
@@ -1187,6 +1231,7 @@
                     <img src="public/img/clients/lt-portogs-desenvolvimento-web.png" alt="PortoGS - Desenvolvimento WEB"
                       class="max-w-32">
                   </div>
+
                 </div>
 
               </div>
@@ -1221,16 +1266,32 @@
             <!-- Carousel wrapper -->
             <div class="overflow-hidden relative h-48 lg:hidden rounded-lg flex justify-between items-center">
 
-              <!-- Page 1 -->
+              <!-- Page 0 -->
               <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
                 <div class="flex flex-wrap items-center justify-around w-full">
+                  <div>
+                    <img src="public/img/clients/lt-bbcagroup.png" alt="BBCA Group"
+                      class="max-w-28">
+                  </div>
+
                   <div>
                     <img src="public/img/clients/lt-junqueirakeller.png" alt="Junqueira Keller - Academia de Tenis"
                       class="max-w-28">
                   </div>
 
+                </div>
+              </div>
+
+              <!-- Page 1 -->
+              <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
+                <div class="flex flex-wrap items-center justify-around w-full">
+
                   <div>
                     <img src="public/img/clients/lt-tuzzi-transportes.png" alt="Tuzzi Transportes" class="max-w-28">
+                  </div>
+
+                  <div>
+                    <img src="public/img/clients/lt-beachsports.png" alt="Arena Beach Sports" class="max-w-28">
                   </div>
                 </div>
               </div>
@@ -1240,11 +1301,11 @@
               <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
                 <div class="flex flex-wrap items-center justify-around w-full">
                   <div>
-                    <img src="public/img/clients/lt-beachsports.png" alt="Arena Beach Sports" class="max-w-28">
-                  </div>
-                  <div>
                     <img src="public/img/clients/lt-horaextra.png" alt="Hora Extra Empório"
                       class="max-w-28 rounded-full">
+                  </div>
+                  <div>
+                    <img src="public/img/clients/lt-butecododu.png" alt="Buteco do Du" class="max-w-28">
                   </div>
                 </div>
               </div>
@@ -1252,12 +1313,14 @@
               <!-- Page 3 -->
               <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
                 <div class="flex flex-wrap items-center justify-around w-full">
-                  <div>
-                    <img src="public/img/clients/lt-butecododu.png" alt="Buteco do Du" class="max-w-28">
-                  </div>
+
                   <div>
                     <img src="public/img/clients/lt-la-alvescontrutora.png" alt="L.A Alves Construtora"
                       class="max-w-28 rounded-full">
+                  </div>
+
+                  <div>
+                    <img src="public/img/clients/lt-chicopiscinas.png" alt="Chico Piscinas" class="max-w-28">
                   </div>
                 </div>
               </div>
@@ -1265,11 +1328,12 @@
               <!-- Page 4 -->
               <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
                 <div class="flex flex-wrap items-center justify-around w-full">
-                  <div>
-                    <img src="public/img/clients/lt-chicopiscinas.png" alt="Chico Piscinas" class="max-w-28">
-                  </div>
+
                   <div>
                     <img src="public/img/clients/lt-coletaseletiva.png" alt="Coletas Seletivas SJB" class="max-w-28">
+                  </div>
+                  <div>
+                    <img src="public/img/clients/lt-espeto-cia.png" alt="Espeto e Cia" class="max-w-28">
                   </div>
                 </div>
               </div>
@@ -1277,11 +1341,13 @@
               <!-- Page 5 -->
               <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
                 <div class="flex flex-wrap items-center justify-around w-full">
-                  <div>
-                    <img src="public/img/clients/lt-espeto-cia.png" alt="Espeto e Cia" class="max-w-28">
-                  </div>
+
                   <div>
                     <img src="public/img/clients/lt-compubarra.png" alt="CompuBarra" class="max-w-28 rounded-full">
+                  </div>
+
+                  <div>
+                    <img src="public/img/clients/lt-laforet.png" alt="La Forêt Flores" class="max-w-28 rounded-full">
                   </div>
                 </div>
               </div>
@@ -1289,11 +1355,14 @@
               <!-- Page 6 -->
               <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
                 <div class="flex flex-wrap items-center justify-around w-full">
-                  <div>
-                    <img src="public/img/clients/lt-laforet.png" alt="La Forêt Flores" class="max-w-28 rounded-full">
-                  </div>
+
                   <div>
                     <img src="public/img/clients/lt-casa-hidraulica.png" alt="Casa da Hidráulica"
+                      class="max-w-28 rounded-full">
+                  </div>
+
+                  <div>
+                    <img src="public/img/clients/lt-advogados.png" alt="Bisconsini e Finócchio Adovogados Associados"
                       class="max-w-28 rounded-full">
                   </div>
                 </div>
@@ -1303,11 +1372,11 @@
               <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
                 <div class="flex flex-wrap items-center justify-around w-full">
                   <div>
-                    <img src="public/img/clients/lt-advogados.png" alt="Bisconsini e Finócchio Adovogados Associados"
-                      class="max-w-28 rounded-full">
+                    <img src="public/img/clients/lt-petmania.png" alt="PetMania - Clínica Veterinária" class="max-w-28">
                   </div>
                   <div>
-                    <img src="public/img/clients/lt-petmania.png" alt="PetMania - Clínica Veterinária" class="max-w-28">
+                    <img src="public/img/clients/lt-castejon.png" alt="Castejon - Imports"
+                      class="max-w-28 rounded-full">
                   </div>
                 </div>
               </div>
@@ -1315,12 +1384,13 @@
               <!-- Page 8 -->
               <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
                 <div class="flex flex-wrap items-center justify-around w-full">
-                  <div>
-                    <img src="public/img/clients/lt-castejon.png" alt="Castejon - Imports"
-                      class="max-w-28 rounded-full">
-                  </div>
+                  
                   <div>
                     <img src="public/img/clients/lt-pedalomais.png" alt="Pedalo Mais" class="max-w-28 rounded-full">
+                  </div>
+                  <div>
+                    <img src="public/img/clients/lt-tocadosbichos.png" alt="Toca dos Bichos"
+                      class="max-w-28 rounded-full">
                   </div>
                 </div>
               </div>
@@ -1328,13 +1398,13 @@
               <!-- Page 9 -->
               <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
                 <div class="flex flex-wrap items-center justify-around w-full">
-                  <div>
-                    <img src="public/img/clients/lt-tocadosbichos.png" alt="Toca dos Bichos"
-                      class="max-w-28 rounded-full">
-                  </div>
+
                   <div>
                     <img src="public/img/clients/lt-cadorin.png" alt="Cadorin Serralheria"
                       class="max-w-28 rounded-full">
+                  </div>
+                  <div>
+                    <img src="public/img/clients/lt-dalvabrasil.png" alt="Dalva Brasil" class="max-w-36 rounded-full">
                   </div>
                 </div>
               </div>
@@ -1342,11 +1412,13 @@
               <!-- Page 10 -->
               <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
                 <div class="flex flex-wrap items-center justify-around w-full">
-                  <div>
-                    <img src="public/img/clients/lt-dalvabrasil.png" alt="Dalva Brasil" class="max-w-36 rounded-full">
-                  </div>
+
                   <div>
                     <img src="public/img/clients/lt-shoowclick.png" alt="ShoowClick" class="max-w-28 rounded-full">
+                  </div>
+                  <div>
+                    <img src="public/img/clients/lt-pedrobianchini.png" alt="Pedro Bianchini"
+                      class="max-w-28 rounded-full">
                   </div>
                 </div>
               </div>
@@ -1354,12 +1426,12 @@
               <!-- Page 11 -->
               <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
                 <div class="flex flex-wrap items-center justify-around w-full">
-                  <div>
-                    <img src="public/img/clients/lt-pedrobianchini.png" alt="Pedro Bianchini"
-                      class="max-w-28 rounded-full">
-                  </div>
+
                   <div>
                     <img src="public/img/clients/lt-studiokremer.png" alt="Studio Kremer" class="max-w-28 rounded-full">
+                  </div>
+                  <div>
+                    <img src="public/img/clients/lt-fenabe.png" alt="Fenabe" class="max-w-28 rounded-full">
                   </div>
                 </div>
               </div>
@@ -1367,11 +1439,12 @@
               <!-- Page 12 -->
               <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
                 <div class="flex flex-wrap items-center justify-around w-full">
-                  <div>
-                    <img src="public/img/clients/lt-fenabe.png" alt="Fenabe" class="max-w-28 rounded-full">
-                  </div>
+
                   <div>
                     <img src="public/img/clients/lt-gilgourmet-png.png" alt="Gil Gourmet Lanches" class="max-w-28">
+                  </div>
+                  <div>
+                    <img src="public/img/clients/lt-patinhacheirosa.png" alt="Patinha Cheirosa" class="max-w-28">
                   </div>
                 </div>
               </div>
@@ -1379,24 +1452,18 @@
               <!-- Page 13 -->
               <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
                 <div class="flex flex-wrap items-center justify-around w-full">
+
                   <div>
-                    <img src="public/img/clients/lt-patinhacheirosa.png" alt="Patinha Cheirosa" class="max-w-28">
+                    <img src="public/img/clients/lt-portogs-desenvolvimento-web.png" alt="PortoGS - Desenvolvimento WEB"
+                      class="max-w-32">
                   </div>
+
                   <div>
                     <img src="public/img/clients/lt-estacaoprofit.png" alt="Estação ProFit" class="max-w-36 bg-red-900">
                   </div>
                 </div>
               </div>
 
-              <!-- Page 14 -->
-              <div class="hidden duration-700 ease-in-out flex justify-around items-center" data-carousel-item>
-                <div class="flex flex-wrap items-center justify-around w-full">
-                  <div>
-                    <img src="public/img/clients/lt-portogs-desenvolvimento-web.png" alt="PortoGS - Desenvolvimento WEB"
-                      class="max-w-32">
-                  </div>
-                </div>
-              </div>
 
 
 
